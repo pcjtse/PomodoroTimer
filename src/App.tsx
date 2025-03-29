@@ -3,6 +3,7 @@ import { ThemeProvider, createTheme } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 import { Container, Box, Typography, Button, Select, MenuItem, FormControl, InputLabel } from '@mui/material';
 import { styled } from '@mui/material/styles';
+import TimePieChart from './components/TimePieChart';
 
 const theme = createTheme({
   palette: {
@@ -128,6 +129,11 @@ function App() {
         </StatsDisplay>
 
         <TimerDisplay>
+          <TimePieChart 
+            minutes={Math.floor(timeLeft / 60)} 
+            seconds={timeLeft % 60} 
+            totalMinutes={selectedInterval}
+          />
           <Typography variant="h1">{formatTime(timeLeft)}</Typography>
           <Box sx={{ mt: 4, display: 'flex', gap: 2 }}>
             {!isRunning ? (
