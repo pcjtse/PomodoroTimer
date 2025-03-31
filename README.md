@@ -1,18 +1,18 @@
 # Pomodoro Timer
 
-A modern, feature-rich Pomodoro timer application built with React, TypeScript, and Material-UI. This application helps you stay focused and productive by implementing the Pomodoro Technique with gamification elements.
+A minimalistic Pomodoro timer application built with React, TypeScript, and Material-UI. This distraction-free timer helps you maintain focus and boost productivity by implementing the Pomodoro Technique with a clean, uncluttered interface.
 
 ## Features
 
-- 🕒 Customizable timer intervals (15, 30, 60, 90 minutes)
-- 🔔 Multiple chime sound effects to choose from
-- 🎮 Gamification system:
+- 🎯 Minimalistic, distraction-free interface
+- 🕒 Simple timer intervals (15, 30, 60, 90 minutes)
+- 🔔 Subtle, non-intrusive sound notifications
+- 💡 Essential features only:
   - Track completed sessions
-  - Earn coins for completed sessions
-  - Unlock different app skins
-- 💾 Local storage to persist your progress
-- 🌙 Dark mode interface
-- 📱 Responsive design for all screen sizes
+  - Basic session statistics
+  - Clean, focused timer display
+- 🌙 Dark mode for reduced eye strain
+- 📱 Responsive design that stays out of your way
 
 ## Prerequisites
 
@@ -24,7 +24,7 @@ A modern, feature-rich Pomodoro timer application built with React, TypeScript, 
 1. Clone the repository:
 ```bash
 git clone https://github.com/yourusername/PomodoroTimer.git
-cd PomodoroTimer
+cd pomodoro-timer
 ```
 
 2. Install dependencies:
