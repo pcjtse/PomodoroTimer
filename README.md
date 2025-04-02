@@ -61,8 +61,6 @@ PomodoroTimer/
 │   ├── App.tsx         # Main application component
 │   ├── main.tsx        # Application entry point
 │   └── index.css       # Global styles
-├── scripts/
-│   └── generate-sounds.js  # Sound generation utility
 ├── index.html          # HTML entry point
 ├── package.json        # Project dependencies
 ├── tsconfig.json       # TypeScript configuration
