@@ -32,14 +32,7 @@ cd pomodoro-timer
 npm install
 ```
 
-3. Add sound effects:
-   - Create a `public/sounds` directory if it doesn't exist
-   - Add the following sound files:
-     - `bell.mp3`
-     - `digital.mp3`
-     - `gentle.mp3`
-
-4. Start the development server:
+3. Start the development server:
 ```bash
 npm run dev
 ```

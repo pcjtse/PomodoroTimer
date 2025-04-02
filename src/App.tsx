@@ -51,7 +51,7 @@ const DEFAULT_STATS: UserStats = {
 };
 
 const TIMER_INTERVALS = [15, 30, 60, 90];
-const CHIME_EFFECTS = ['bell', 'digital', 'gentle'];
+const CHIME_EFFECTS = ['happy-bell', 'relaxing-bell', 'achievement-bell'];
 
 function App() {
   const [timeLeft, setTimeLeft] = useState(0);
@@ -95,7 +95,7 @@ function App() {
   };
 
   const playChime = () => {
-    const audio = new Audio(`/sounds/${selectedChime}.mp3`);
+    const audio = new Audio(`/sounds/mixkit-${selectedChime}-3109.wav`);
     audio.play().catch(console.error);
   };
 
